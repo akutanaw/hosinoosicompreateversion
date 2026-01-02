@@ -9,7 +9,7 @@ public class ReadImageComponent extends Component {
     ReadImageComponent() throws IOException {
         String imageFilename = "C:/Users/akuta/Downloads/hosinoosicompreateversion-main/hosinoosicompreateversion-main/tamago.png";
             bufferedImage = ImageIO.read(new File(imageFilename));
-    }
+  }
     @Override
     public void paint(Graphics graphics) {
         graphics.drawImage(bufferedImage, 0, 0, null);
