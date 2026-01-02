@@ -7,7 +7,7 @@ import java.io.IOException;
 public class ReadImageComponent extends Component {
     Image bufferedImage = null;
     ReadImageComponent() throws IOException {
-        String imageFilename = "C:/hoge/hoge5/app/src/main/java/hoge5/tamago.png";
+        String imageFilename = "C:/Users/akuta/Downloads/hosinoosicompreateversion-main/hosinoosicompreateversion-main/tamago.png";
             bufferedImage = ImageIO.read(new File(imageFilename));
     }
     @Override
