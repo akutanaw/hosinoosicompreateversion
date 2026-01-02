@@ -26,7 +26,7 @@ public class Main extends Frame implements ActionListener {
         Frame frame = new Frame();
         frame.setAlwaysOnTop(true);
         frame.setBackground(col2);
-        String imageFilename = "C:/hoge/hoge5/app/src/main/java/hoge5/tamago.png";
+        String imageFilename = "C:/Users/akuta/Downloads/hosinoosicompreateversion-main/hosinoosicompreateversion-main/tamago.png";
         Image img = ImageIO.read(new File(imageFilename));
         frame.setIconImage(img);
         frame.addWindowListener ( new WindowAdapter () {
